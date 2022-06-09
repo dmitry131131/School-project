@@ -1,7 +1,11 @@
+
+
 body { 
     margin:0;
     padding:0;
     font-family:helvetica, sans-serif; 
+    background-image: url(../img/images.png);
+    
 }
 
 a { 
@@ -11,12 +15,14 @@ a {
 
 h1 { 
     font-weight:normal;
+    font-size: 45px;
     border-bottom:1px solid #bbb;
     padding:0 0 10px 0;
 }
 
 h2 {
     font-weight:normal;
+    font-size: 30px;
     margin:30px 0 0;
 }
 
@@ -30,12 +36,12 @@ h2 {
     float:right;
     width:30%;
     padding:10px;
-    background:#efefef; 
+    background:#dadada; 
     height:100%;
 }
 
 p.date { 
-    color:#ccc;
+    color:#000;
     font-family: georgia, serif;
     font-size: 12px;
     font-style: italic; 
@@ -89,4 +95,8 @@ input[type=submit] {
     font-weight:bold;
     font-size:12px;
     color:#666;
+}
+
+.sidebar_img {
+    text-align: center;
 }
